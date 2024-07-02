@@ -15,9 +15,9 @@ DB_USERNAME
 DB_PASSWORD
 
 RANDOM_ORG_URL=https://api.random.org/json-rpc/2/invoke
-RANDOM_ORG_API_KEY=0c864d9e-794e-4ce5-83bd-98c4aad148cf
+RANDOM_ORG_API_KEY
 
-JWT_SECRET=ajshfbakdbgkadbjgna
+JWT_SECRET
 ```
 
 <!-- Populate operations table -->
