@@ -2,10 +2,10 @@ import { BadRequestException, Injectable, UnauthorizedException } from '@nestjs/
 import { InjectRepository } from '@nestjs/typeorm';
 import { Operation, OperationType } from './operation.entity';
 import { Repository } from 'typeorm';
-import { User } from 'src/v1/users/user.entity';
-import { Record } from 'src/v1/records/record.entity';
 import { CreateOperationDto } from './dto/create-operation.dto';
 import axios from 'axios';
+import { User } from '../users/user.entity';
+import { Record } from '../records/record.entity';
 
 @Injectable()
 export class OperationsService {
